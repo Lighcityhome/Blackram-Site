@@ -1,0 +1,140 @@
+body {
+    font-family: "Roboto";
+    font-size: 24px;
+    margin: 0px;
+}
+
+header {
+    background-color: black;
+    display: flex;
+    justify-content: center;
+}
+
+a {
+    color: #909090;
+    text-decoration: none
+}
+
+h1 {
+    font-size: 48px;
+    margin: 0px;
+}
+
+h2 {
+    font-size: 48px;
+}
+
+text {
+    font: 24px;
+}
+
+div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+ul {
+    padding: 0px;
+}
+
+#name {
+    font-size: 48px;
+    color: white;
+    font-weight: 700;
+    margin-left: 20px;
+}
+
+#subtitle {
+    padding-top: 16px;
+    padding-bottom: 32px;
+}
+
+.header {
+    width: 1366px;
+    height: 108px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: stretch;
+}
+
+.headerlogo {
+    height: 75px;
+    width: 334px;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+}
+
+.rubricator_header {
+    font-size: 20px;
+    color: white;
+    display: inline-block;
+    list-style: none;
+    padding: 15px;
+}
+
+.rubricator {
+    display: flex;
+    flex-direction: row;
+}
+
+.button {
+    justify-content: center;
+    background-color: #000000;
+    color: #ffffff;
+    border: 2px solid #ffffff;
+    width: 200px;
+    border-radius: 20px;
+    font-size: 20px;
+    padding: 10px;
+    transition-duration: 0.4s;
+}
+
+.button:hover {
+    background-color: #ffffff;
+    color: black;
+}
+
+.headerbutton {
+    flex-direction: row-reverse;
+    display: flex;
+}
+
+.block {
+    width: 650px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.image {
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 55px;
+}
+
+.firstpage {
+    height: 470px;
+    width: 680px;
+    filter: drop-shadow(6px 6px #6C5C95);
+}
+
+.img {
+    height: auto;
+    width: 100%;
+}
+
+.screen1 {
+    width: 1366px;
+    height: 556px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
