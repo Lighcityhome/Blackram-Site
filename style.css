@@ -37,7 +37,9 @@ div {
 }
 
 ul {
+    list-style: none;
     padding: 0px;
+    margin: 0px;
 }
 
 #name {
@@ -79,6 +81,8 @@ ul {
 }
 
 .rubricator {
+    margin-bottom: 26px;
+    margin-top: 26px;
     display: flex;
     flex-direction: row;
 }
@@ -117,12 +121,19 @@ ul {
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-left: 55px;
 }
 
 .firstpage {
     height: 470px;
     width: 680px;
+    margin-left: 100px;
+    filter: drop-shadow(6px 6px #6C5C95);
+}
+
+.page3 {
+    height: 460px;
+    width: 360px;
+    margin-left: 40px;
     filter: drop-shadow(6px 6px #6C5C95);
 }
 
@@ -131,30 +142,38 @@ ul {
     width: 100%;
 }
 
-.screen1 {
+.screen {
     width: 1366px;
-    height: 556px;
     display: flex;
-    flex-direction: column;
     flex-wrap: wrap;
+    align-content: flex-start;
+}
+
+.s1 {
+    height: 556px;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
 }
 
-.screen2 {
-    width: 1366px;
+.s2 {
     height: 842px;
-    display: flex;
     flex-direction: row;
-    flex-wrap: wrap;
     align-content: flex-start;
     justify-content: center;
     align-items: center;
 }
 
-.screen3 {
-    width: 1366px;
+.s3 {
     display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    align-content: center;
+    align-items: flex-start;
+}
+
+.s4 {
+    
 }
 
 .textiles {
@@ -178,11 +197,32 @@ ul {
     padding-bottom: 7px;
 }
 
-#test {
-    width: 1920px;
+#t1 {
+    width: 1800px;
     margin: 0px;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: center;
+}
+
+#onemore {
+    display: flex;
+    flex-direction: row;
+}
+
+#client {
+    margin-bottom: 22px;
+}
+
+#c1 {
+    margin-left: 50px;
+}
+
+#c2 {
+    list-style: outside;
+}
+
+#test {
+    width: 640px;
 }
