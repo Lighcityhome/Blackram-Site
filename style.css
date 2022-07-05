@@ -1,6 +1,6 @@
 body {
     font-family: "Roboto";
-    font-size: 24px;
+    font-size: 26px;
     margin: 0px;
 }
 
@@ -143,18 +143,25 @@ ul {
 
 .screen2 {
     width: 1366px;
-    height: 855px;
+    height: 842px;
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     flex-wrap: wrap;
+    align-content: flex-start;
     justify-content: center;
     align-items: center;
+}
+
+.screen3 {
+    width: 1366px;
+    display: flex;
 }
 
 .textiles {
     display: inline-block;
     list-style: none;
-    padding: 15px;
+    padding-left: 15px;
+    padding-right: 15px;
 }
 
 .imge {
@@ -163,4 +170,19 @@ ul {
 }
 .exemple {
     height: 300px;
+    padding-bottom: 4px;
+    filter: drop-shadow(4px 4px #6C5C95);
+}
+
+.ticket {
+    padding-bottom: 7px;
+}
+
+#test {
+    width: 1920px;
+    margin: 0px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
 }
