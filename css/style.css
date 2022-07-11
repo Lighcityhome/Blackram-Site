@@ -166,6 +166,14 @@ p {
   padding: 120px 0;
 }
 
+.sticky {
+  position: fixed;
+  right: 40px;
+  bottom: 40px;
+  background-color: #9C4146;
+  border: 2px solid #9C4146;
+}
+
 button {
   -webkit-box-pack: center;
       -ms-flex-pack: center;

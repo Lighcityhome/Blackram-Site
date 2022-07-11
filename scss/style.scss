@@ -116,6 +116,14 @@ p {
     }
 }
 
+.sticky {
+    position: fixed;
+    right: 40px;
+    bottom: 40px;
+    background-color: #9C4146;
+    border: 2px solid #9C4146;
+}
+
 button {
     justify-content: center;
     background-color: #000000;
