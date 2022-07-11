@@ -5,7 +5,11 @@ body {
 }
 
 header {
-  background-color: rgba(0, 0, 0, 0.1);
+  position: fixed;
+  top: 0px;
+  width: 100%;
+  z-index: 1;
+  background-color: rgba(0, 0, 0, 0.5);
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -62,7 +66,7 @@ p {
   margin: 0;
 }
 
-.header {
+.header__x {
   width: 1300px;
   min-height: 60px;
   display: -webkit-box;
@@ -79,18 +83,18 @@ p {
   font-family: roboto;
   color: white;
 }
-.header__rubricator {
+.header__x__rubricator {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   font-display: row;
   margin: 15px auto 15px auto;
 }
-.header__rubricator__a {
+.header__x__rubricator__a {
   color: white;
   display: inline-block;
 }
-.header__rubricator__a:not(:last-child) {
+.header__x__rubricator__a:not(:last-child) {
   margin-right: 60px;
 }
 
