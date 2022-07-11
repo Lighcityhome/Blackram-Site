@@ -106,7 +106,7 @@ p {
       -ms-flex-pack: center;
           justify-content: center;
   min-height: 980px;
-  background-image: url(/images/manufacture.jpg);
+  background-image: url(https://raw.githubusercontent.com/Lighcityhome/Blackram_site/main/images/manufacture.jpg);
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
