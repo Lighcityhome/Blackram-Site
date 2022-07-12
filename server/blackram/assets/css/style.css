@@ -4,6 +4,11 @@ body {
   margin: 0px;
 }
 
+html {
+  margin-top: 0 !important;
+
+}
+
 .mane {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -62,7 +67,7 @@ h1 {
 
 h2 {
   font-size: 48px;
-  margin: 0 0 45px 0;
+  margin: 0 0 45px 2px;
   text-align: center;
 }
 
@@ -181,6 +186,14 @@ p {
   padding: 120px 0;
 }
 
+.sticky {
+  position: fixed;
+  right: 40px;
+  bottom: 40px;
+  background-color: #9C4146;
+  border: 2px solid #9C4146;
+}
+
 button {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
@@ -257,6 +270,10 @@ button:hover {
   text-align: center;
 }
 
+.s2 {
+  width: 1320px;
+}
+
 .s2__tile-set {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -268,15 +285,9 @@ button:hover {
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
 }
-.s2__tile-set > li {
-  list-style: none;
-  margin-bottom: 7px;
-  margin-right: 30px;
-}
-.s2__tile-set > li:nth-child(3n+3) {
-  margin-right: 0px;
-}
+
 .s2__tile-set__tile {
+  margin-bottom: 7px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -292,6 +303,7 @@ button:hover {
   max-width: 410px;
   max-height: 340px;
   padding-bottom: 4px;
+  margin: 0 15px 0  15px;
   -webkit-filter: drop-shadow(4px 4px #6C5C95);
           filter: drop-shadow(4px 4px #6C5C95);
 }
@@ -365,7 +377,7 @@ button:hover {
   max-width: 520px;
   margin-right: 30px;
 }
-.s4 .block > div > input {
+.contact-form {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
@@ -378,10 +390,20 @@ button:hover {
   font-size: 20px;
   padding: 0 0 0 16px;
 }
-.s4 .block > div > input:not(:first-child) {
-  max-width: 440px;
+.contact-form__low {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  background-color: #000000;
+  color: #ffffff;
+  border: 2px solid #ffffff;
   margin-top: 15px;
+  width: 500px;
+  max-width: 440px;
+  height: 56px;
   border-radius: 20px 0 0 20px;
+  font-size: 20px;
+  padding: 0 0 0 16px;
 }
 .s4 .block > div > button {
   max-width: 60px;
@@ -530,55 +552,4 @@ button:hover {
   -webkit-box-align: start;
       -ms-flex-align: start;
           align-items: flex-start;
-}
-
-.inputform {
-  display: none;
-  background-color: #000;
-}
-.inputform > input {
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  background-color: #000000;
-  color: #ffffff;
-  border: 2px solid #ffffff;
-  width: 500px;
-  height: 56px;
-  border-radius: 20px;
-  font-size: 20px;
-  padding: 0 0 0 16px;
-}
-.inputform > input:not(:first-child) {
-  max-width: 440px;
-  margin-top: 15px;
-  border-radius: 20px 0 0 20px;
-}
-.inputform > button {
-  max-width: 60px;
-  min-height: 60px;
-  margin-left: -8px;
-  border-radius: 0 20px 20px 0;
-  background-color: #fff;
-  border: 2px solid #fff;
-}
-.inputform > button > svg {
-  fill: #000;
-}
-.inputform > button:hover {
-  background-color: #000;
-}
-.inputform > button:hover > svg {
-  fill: #fff;
-}
-
-.sticky {
-  position: fixed;
-  right: 40px;
-  bottom: 40px;
-  background-color: #9C4146;
-  border: 2px solid #9C4146;
-}
-.sticky :hover .inputform {
-  display: block;
 }

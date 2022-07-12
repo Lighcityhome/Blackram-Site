@@ -3,6 +3,12 @@ body {
     font-size: 26px;
     margin: 0px;
 }
+.mane  {
+    display: flex;
+    flex-direction: column;
+    align-content: space-between;
+    justify-content: center;
+}
 header {
     position: fixed;
 	top: 0px;
@@ -114,14 +120,6 @@ p {
         color: white;
         padding: 120px 0;
     }
-}
-
-.sticky {
-    position: fixed;
-    right: 40px;
-    bottom: 40px;
-    background-color: #9C4146;
-    border: 2px solid #9C4146;
 }
 
 button {
@@ -376,4 +374,55 @@ button {
     flex-direction: row;
     justify-content: space-between;
     align-items: flex-start;
+}
+
+.inputform {
+    display: none; 
+    background-color: #000;
+    >input {
+        justify-content: center;
+        background-color: #000000;
+        color: #ffffff;
+        border: 2px solid #ffffff;
+        width: 500px;
+        height: 56px;
+        border-radius: 20px;
+        font-size: 20px;
+        padding: 0 0 0 16px;
+        }
+    >input:not(:first-child) {
+        max-width: 440px;
+        margin-top: 15px;
+        border-radius: 20px 0 0 20px;
+    }
+    >button {
+        max-width: 60px;
+        min-height: 60px;
+        margin-left: -8px;
+        border-radius: 0 20px 20px 0;
+        background-color: #fff;
+        border: 2px solid #fff;
+        >svg {
+            fill: #000;
+        }
+    }
+    >button:hover {
+        background-color: #000;
+        >svg {
+        fill: #fff;
+    }
+    }
+}
+
+.sticky {
+    position: fixed;
+    right: 40px;
+    bottom: 40px;
+    background-color: #9C4146;
+    border: 2px solid #9C4146;
+    :hover {
+        .inputform {
+            display: block; 
+        }
+    }
 }
