@@ -9,13 +9,13 @@
 
         
     </head>
-    <header class="header">
-        <div class="header__x"> 
-            <nav class="header__x__rubricator">
-                <a  class="header__x__rubricator__a" href="#products">Продукция</a>
-                <a  class="header__x__rubricator__a" href="#customers">Заказчикам</a>
-                <a  class="header__x__rubricator__a" href="#contact">Контакты</a>
-                <a  class="header__x__rubricator__a" href="">О нас</a>
+    <header class="close__header">
+        <div class="header"> 
+            <nav class="header__rubricator">
+                <a  class="header__rubricator__a" href="#products">Продукция</a>
+                <a  class="header__rubricator__a" href="#customers">Заказчикам</a>
+                <a  class="header__rubricator__a" href="#contact">Контакты</a>
+                <a  class="header__rubricator__a" href="">О нас</a>
             </nav>
         </div>    
     </header>

@@ -13,8 +13,8 @@
                 <li id="client">
                 2-я Шуйская ул., 1
                 </li>
-                <a id="inst1" href="https://www.instagram.com/blackramtekstil/">
-                    <img src="images/instagram.svg" width="30"><div id="inst">blackramtekstil</div> 
+                <a target="_blank" id="inst1" href="https://www.instagram.com/blackramtekstil/">
+                    <div id="inst">@blackramtekstil</div> 
                 </a>
             </ul>
             <ul>

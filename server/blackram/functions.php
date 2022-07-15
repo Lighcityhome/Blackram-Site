@@ -17,7 +17,14 @@ add_action( 'wp_enqueue_scripts', function () {
 
 	wp_enqueue_script( 'jquery' );
 
-    wp_enqueue_script( 'script', get_template_directory_uri() . '/assets/js/script.js', array('jquery'), 'null', true );
+    wp_enqueue_script( 'jquery', get_template_directory_uri().'/assets/js/jquery-3.6.0.min.js', array('jquery'), 'null', true );
+    wp_enqueue_script( 'form_name', get_template_directory_uri() . '/assets/js/form_name.js', array('jquery'), 'null', true );
+    wp_enqueue_script( 'mail_script', get_template_directory_uri() . '/assets/js/mail_script.js', array('jquery'), 'null', true );
+    wp_enqueue_script( 'popup-sticky', get_template_directory_uri() . '/assets/js/popup-sticky.js', array('jquery'), 'null', true );
+    wp_enqueue_script( 'header', get_template_directory_uri() . '/assets/js/header.js', array('jquery'), 'null', true );
+    wp_enqueue_script( 'fone', get_template_directory_uri() . '/assets/js/fone.js', array('jquery'), 'null', true );
+    wp_enqueue_script( 'maps', get_template_directory_uri() . '/assets/js/maps.js', array('jquery'), 'null', true );
+
 });
 
 add_theme_support( 'post-thumbnails' );
