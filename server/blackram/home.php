@@ -30,7 +30,7 @@ Template Name: home
             <div class="screen s1">
                 <div class="s1__logo">
                     <img id="logo" src="<?php 'bloginfo'('template_url'); ?> /assets/images/Logo (1).svg">
-                    <p>BLACKRAM</p> 
+                    <p>blackram</p> 
                 </div>
                 <div class="block">
                     <h1>Текстильное полотно оптом от производителя</h1>
